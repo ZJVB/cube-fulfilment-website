@@ -5,7 +5,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: '零零仓(上海)物流科技有限公司',
+      title: 'CUBE英国海外仓',
       htmlAttrs: {
         lang: 'zh-Ch'
       },

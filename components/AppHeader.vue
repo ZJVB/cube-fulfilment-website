@@ -1,5 +1,5 @@
 <template>
-  <header class="page-header" :class="{ 'white-navbar':topWhite }">
+  <header class="page-header white-navbar">
     <div class="container-box">
       <div class="header-box">
         <div class="header-l">

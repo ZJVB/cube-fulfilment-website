@@ -1,558 +1,467 @@
 {
-  "name": "申耐特",
-  "nameSmall": "零零仓",
+  "name": "zerocang",
+  "nameSmall": "zerocang",
   "navbar": {
     "menu1": "首页",
-    "menu2": "海外仓服务",
-    "menu3": "信息化系统",
-    "menu4": "新闻资讯"
+    "menu2": "服务",
+    "menu3": "信息化",
+    "menu4": "关于",
+    "popover":{
+      "product1":"英国海外仓‌",
+      "productTxt1":"本土化仓储服务‌",
+      "card1":{
+        "title":"英国海外仓‌",
+        "productCardTitle1":"仓储覆盖广",
+        "productCardTxt11":"多区布点",
+        "productCardTxt12":"辐射全英",
+        "productCardTitle2":"本地响应快",
+        "productCardTxt21":"就近发货",
+        "productCardTxt22":"时效提升",
+        "productCardTitle3":"库存管理精",
+        "productCardTxt31":"智能系统",
+        "productCardTxt32":"动态调配",
+        "productCardTitle4":"合规保障全",
+        "productCardTxt41":"税务合规",
+        "productCardTxt42":"风险规避"
+      },
+      "product2":"国际集运物流‌",
+      "productTxt2":"资源整合中转‌",
+      "card2":{
+        "title":"国际集运物流‌",
+        "productCardTitle1":"多国集货快",
+        "productCardTxt11":"全球揽收",
+        "productCardTxt12":"统一归集",
+        "productCardTitle2":"分拣效率高",
+        "productCardTxt21":"智能分拨",
+        "productCardTxt22":"精准归类",
+        "productCardTitle3":"运费成本省",
+        "productCardTxt31":"拼箱拼单",
+        "productCardTxt32":"均摊费用",
+        "productCardTitle4":"全程可追踪‌",
+        "productCardTxt41":"一单到底",
+        "productCardTxt42":"透明可视"
+      },
+      "product3":"国际海运‌",
+      "productTxt3":"大宗运输主力‌",
+      "card3":{
+        "title":"国际海运‌",
+        "productCardTitle1":"承载规模大",
+        "productCardTxt11":"整柜拼箱",
+        "productCardTxt12":"灵活适配",
+        "productCardTitle2":"成本优势显‌",
+        "productCardTxt21":"低价承运",
+        "productCardTxt22":"长期稳定",
+        "productCardTitle3":"航线覆盖全",
+        "productCardTxt31":"全球港口",
+        "productCardTxt32":"高频班次",
+        "productCardTitle4":"环保节能化",
+        "productCardTxt41":"低碳减排",
+        "productCardTxt42":"绿色运输"
+      },
+      "product4":"国际空运‌",
+      "productTxt4":"高效时效保障‌",
+      "card4":{
+        "title":"国际空运‌",
+        "productCardTitle1":"全球直达快‌",
+        "productCardTxt11":"优先舱位",
+        "productCardTxt12":"极速通关",
+        "productCardTitle2":"紧急响应强",
+        "productCardTxt21":"加急服务",
+        "productCardTxt22":"按需调配",
+        "productCardTitle3":"安全系数高",
+        "productCardTxt31":"温控防损",
+        "productCardTxt32":"全链保险",
+        "productCardTitle4":"定制方案专",
+        "productCardTxt41":"特殊货物",
+        "productCardTxt42":"专项解决"
+      },
+      "aboutTitle1":"关于 CUBE",
+      "about1":"专业服务",
+      "about2":"关于我们",
+      "about3":"企业发展",
+      "about4":"企业文化",
+      "aboutContact1":"产品咨询",
+      "aboutContact2":"产品售后联系",
+      "aboutContact3":"邮箱地址",
+      "aboutContact4":"微信",
+      "aboutContact5":"公众号"
+    }
   },
   "footer": {
-    "cellTitle1": "页面导航",
-    "cellTitle2": "友情链接",
-    "cellTitle3": "联系我们",
-    "backTop": "回到顶部",
+    "cellTitle1": "Page Navigation",
+    "cellTitle2": "Useful Links",
+    "cellTitle3": "Contact information",
+    "backTop": "Back to Top",
     "menu": {
       "menu1": "17track",
       "menu2": "51tracking",
-      "menu3": "实时汇率查询",
-      "menu4": "航班查询",
-      "menu5": "HS编码查询"
+      "menu3": "Exchange Rate Query",
+      "menu4": "Flight Search",
+      "menu5": "HS Code Lookup"
     },
     "contact": {
-      "name1": "联系电话：",
-      "txt1": "18516101845 / 18621373216  高女士",
-      "name2": "商务合作：",
-      "txt2": "gaoyaru{'@'}linglingcang.com",
-      "name3": "客户服务投诉：",
-      "txt3": "gaoyaru{'@'}linglingcang.com",
-      "name4": "联系地址：",
-      "txt4": "上海市青浦区华徐公路962弄69号复能大厦1106室"
+      "txt1": "UK Head Office: 109 Portland Street, Manchester, M1 6DN",
+      "txt2": "contact{'@'}bnj-global.com"
     },
     "service":{
-      "txt1":"销售电话： 18516101845",
-      "txt2":"客服电话： 18621373216"
+      "txt1":"Sales Tel: 18516101845",
+      "txt2":"Phone: 18621373216"
     }
   },
   "common": {
-    "tab1": "海外仓WMS",
-    "tab2": "跨境物流TMS",
-    "tab3": "集运系统",
-    "btn1": "立即使用",
-    "btn2": "免费咨询",
-    "btn3": "立即咨询",
-    "btn4": "了解详情",
-    "btn5": "预约演示",
-    "btn6": "立刻咨询",
-    "btn7": "加入我们",
+    "tab1": "Overseas Warehouse WMS",
+    "tab2": "Cross-Border Logistics TMS",
+    "tab3": "Consolidation system",
+    "btn1": "Start Now",
+    "btn2": "Free Consultation",
+    "btn3": "Contact Us",
+    "btn4": "Learn more",
+    "btn5": "Schedule a Demo",
+    "btn6": "Contact Us",
+    "btn7": "Join Us",
     "news": {
-      "title": "服务仓库",
-      "subTitle": "零零仓物流系统，深度挖掘您的供应链价值，做您的终身朋友！"
+      "title": "Service Warehouse",
+      "subTitle": "Explore the full potential of your supply chain with Zero Cang Logistics System—your lifelong partner!"
     },
     "experience": {
-      "title": "马上开启海外仓智能升级之旅",
-      "subTitle": "立即免费试用，或直接联系我们的解决方案专家，评估零零仓团队如何助您更进一步。",
-      "holder": "请输入手机号",
+      "title": "Start Your Intelligent Overseas Warehouse Upgrade Today",
+      "subTitle": "Try it for free, or reach out to our solution experts to see how Zero Cang can help you move forward.",
+      "holder": "Enter your phone number",
       "dialoag": {
-        "header": "预约演示",
-        "headerTip": "您可以填写表格信息，我们的团队会尽快与您联系",
-        "label1": "姓名",
-        "placeholder1": "请输入姓名",
-        "label2": "公司名称",
-        "placeholder2": "请输入公司名称",
-        "label3": "手机号",
-        "placeholder3": "请输入手机号",
-        "label4": "想体验的系统",
-        "placeholder4": "请选择想体验的系统",
-        "label5": "备注",
-        "sys1": "跨境物流TMS",
-        "sys2": "海外仓WMS",
-        "sys3": "集运系统",
-        "formBtn": "提交",
-        "result": "申请提交成功"
+        "header": "Schedule a Demo",
+        "headerTip": "Fill out the form below, and our team will contact you shortly.",
+        "label1": "Name",
+        "placeholder1": "Enter your name",
+        "label2": "Company Name",
+        "placeholder2": "Enter your company name",
+        "label3": "Phone Number",
+        "placeholder3": "Enter your phone number",
+        "label4": "System to Experience",
+        "placeholder4": "Select a system to experience",
+        "label5": "Remarks",
+        "sys1": "TMS",
+        "sys2": "WMS",
+        "sys3": "Consolidation",
+        "formBtn": "Submit",
+        "result": "Application submitted successfully"
       }
     }
   },
   "index": {
     "swiper": {
-      "tips":"解决方案服务商",
-      "refund":"30天无理由退款",
-      "name1":"零零仓WMS系统",
-      "name2":"",
-      "name3":"SunLight 海外仓服务平台3",
-      "txt1":"领先的精益物流",
-      "txt2":"",
-      "txt3":"一站式集运系统",
-      "description1": "零距离链接，让跨境物流智能无限！",
-      "description2": "",
-      "description3": "海外仓储WMS SaaS/ 跨境物流TMS系统"
+      "tips":"System Solution",
+      "name1":"跨境电商",
+      "name2":"全链路",
+      "name3":"品牌",
+      "name11":"'一站式'",
+      "name21":"'自动化'",
+      "name31":"'定制化'",
+      "txt1":"仓储与物流解决方案",
+      "txt2":"订单管理",
+      "txt3":"增值服务",
+      "description1": "Cube英国海外仓专为跨境电商企业提供高效、灵活、定制化的仓储与物流服务，助您在英国及欧洲市场快速增长，优化供应链，提升客户满意度",
+      "description2": "订单自动同步全球电商平台，实时库存联动扣减，智能规则分配就近仓库发货，杜绝超卖缺货风险。系统无缝对接主流ERP/WMS，减少80%人工干预，订单处理时效缩短至2小时，发货准确率高达99.9%，助您以高效、透明的供应链响应欧洲终端市场需求",
+      "description3": "提供专属品牌包装设计（LOGO印刷、定制封箱贴、多语言宣传页），支持多SKU组合发运节省物流成本，灵活适配黑五、圣诞等大促主题包装。从仓储到交付全程品牌露出，提升客户拆箱体验与复购率，助中国出海企业强化欧洲市场品牌影响力"
     },
-    "pain": {
-      "title": "我们了解您的痛点",
-      "subTitle": "多年技术沉淀，帮助解决常见业务难题",
-      "pain1": "货在哪？",
-      "painTxt1": "下单不方便，运输轨迹不透明，异常难掌控，客户体验差",
-      "pain2": "钱在哪？",
-      "painTxt2": "运价不精细，不支持复杂运价，无法实时看到应收应付进度",
-      "pain3": "库存有多少？",
-      "painTxt3": "库存盘点不便，上下架记录不清晰，客户无法获取到实时库存",
-      "pain4": "客户怎么管理？",
-      "painTxt4": " 撞单飞单造成客户流失，无法针对客户做出最优决策",
-      "pain5": "渠道怎么优化？",
-      "painTxt5": "比价不智能，异常不清晰，无法自动选择最优渠道",
-      "pain6": "人工成本怎么降？",
-      "painTxt6": "系统使用不便利，导致仓库人员效率低易出错，培训成本高"
+    "quantity": {
+      "quantity1": "+海外仓",
+      "quantityTxt1": "曼彻斯特、利物浦、伦敦建有海外仓",
+      "quantity2": "+平米",
+      "quantityTxt2": "仓库空间充足",
+      "quantity3": "+订单",
+      "quantityTxt3": "日均处理订单量",
+      "quantity4": "+物流商合作",
+      "quantityTxt4": "与多家国际知名物流企业达成合作关系"
     },
-    "major":{
-      "title": "多套系统满足不同业务场景",
-      "subTitle": "聚焦跨境电商仓储与物流信息化，提供一站式海外仓解决方案",
-      "cellTitle1":"海外仓WMS系统",
-      "describe1":"帮助卖家、物流企业及海外仓统筹从卖家到最终消费者的跨境物流全场景，实现仓配协同。覆盖海外仓全业务需求，智能化仓库作业。支持平台多店铺订单集中处理，多仓库联动管理，实现多店铺订单面单打印并进行快速发货。",
-      "detail1":{
-        "title1":"客户端",
-        "txt1":"便捷注册",
-        "txt2":"包裹预报",
-        "txt3":"在线支付",
-        "txt4":"余额扣款",
-        "txt5":"微信通知",
-        "txt6":"多语言界面",
-        "title2":"仓库端",
-        "txt7":"扫描入库",
-        "txt8":"自动称重",
-        "txt9":"快进快出",
-        "txt10":"头程管理",
-        "txt11":"末端轨迹",
-        "txt12":"实时跟踪",
-        "title3":"财务结算",
-        "txt13":"自动计费",
-        "txt14":"卡券赠送",
-        "txt15":"在线充值",
-        "txt16":"仓库成本",
-        "txt17":"账单结算",
-        "txt18":"利润分析"
-      },
-      "detail2":{
-        "title1":"订单管理系统",
-        "txt1":"极速打单",
-        "txt2":"渠道比价",
-        "txt3":"在线充值",
-        "txt4":"实时追踪",
-        "txt5":"一票多件",
-        "txt6":"多渠道对接",
-        "title2":"库内操作模块",
-        "txt7":"入库扫描",
-        "txt8":"装箱出库",
-        "txt9":"主单管理",
-        "txt10":"头程跟踪",
-        "txt11":"报关管理",
-        "txt12":"清关管理",
-        "title3":"财务结算模块",
-        "txt13":"客户公布价",
-        "txt14":"客户协议价",
-        "txt15":"多种计费规则",
-        "txt16":"计泡管理",
-        "txt17":"利润分析",
-        "txt18":"运价查询"
-      },
-      "detail3":{
-        "title1":"客户端",
-        "txt1":"便捷注册",
-        "txt2":"包裹预报",
-        "txt3":"在线支付",
-        "txt4":"余额扣款",
-        "txt5":"微信通知",
-        "txt6":"多语言界面",
-        "title2":"仓库端",
-        "txt7":"扫描入库",
-        "txt8":"自动称重",
-        "txt9":"快进快出",
-        "txt10":"头程管理",
-        "txt11":"末端轨迹",
-        "txt12":"实时跟踪",
-        "title3":"财务结算",
-        "txt13":"自动计费",
-        "txt14":"卡券赠送",
-        "txt15":"在线充值",
-        "txt16":"仓库成本",
-        "txt17":"账单结算",
-        "txt18":"利润分析"
-      },
-      "cellTitle2":"跨境物流TMS系统",
-      "describe2":"提供订单实时同步、数据API接口、面单打印、订单派送管理及账单结算等功能，覆盖一件代发、菜鸟线上仓、集运仓、代理三方仓、FBA转运/退件换标，实现订单履约，智能优化及数据洞察。",
-      "cellTitle3":"代购集运系统",
-      "describe3":"为海外卖家从国内电商平台采购商品，集中或直接转运至海外。支持客户邮箱快速注册下单，预充值付款。可设置推广返利侦测，系统多语言切换。"
+    "introduce":{
+      "title": "智能仓储管理",
+      "animationTitle":"精准库存控制",
+      "itemTitle1":"SKU库存管理——精准掌控每件商品",
+      "itemSubTitle1":"不同品类的商品对于仓储管理有着不同的要求，Cube采用多SKU管理系统，确保您的库存得到精细化管理：",
+      "itemDescribe11":"● 多平台SKU同步 —— 无缝对接Amazon、eBay、Shopify、TikTok等平台，自动更新库存数据，避免超卖或断货",
+      "itemDescribe12":"● 多类别库存分类 —— 针对普通商品、易碎品、大件货、温控商品等，提供不同存储方式，提高管理效率",
+      "itemDescribe13":"● 库存批次管理 —— 依据生产日期、批次、有效期等，进行智能分区存放，确保产品质量和周转率",
+      "itemTitle2":"实时数据同步——库存可视化管理，降低风险",
+      "itemSubTitle2":"Cube仓库系统采用全链路数据可视化管理，让库存状态一目了然，确保商家可以随时掌握产品动态，做出及时调整：",
+      "itemDescribe21":"● 精准库存追踪 —— 通过WMS系统，实时查看库存变动，减少人工误差，提升管理效率",
+      "itemDescribe22":"● 库存自动预警 —— 系统自动计算库存消耗速度，设置低库存提醒，确保补货计划精准执行",
+      "itemDescribe23":"● 订单履约监控 —— 订单状态全程可追踪，从入库、拣货、打包到发货，全流程数据可视化",
+      "tip1":"Request a Demo",
+      "tip2":"More info"
     },
-    "process":{
-      "title": "对接主流电商、erp、wms、tms系统、打通跨境供应链全流程"
+    "service":{
+      "title":"灵活存储方案",
+      "animationTitle":"满足不同业务需求",
+      "subTitle":"不同卖家的运营模式不同，Cube提供个性化仓储方案，确保您的货物能在最合适的条件下存储：",
+      "serviceItem1":"短期存储",
+      "serviceTxt1":"适用于快速周转商品，灵活出库，降低仓储成本",
+      "serviceItem2":"长期存储",
+      "serviceTxt2":"适合大批量进货、季节性商品存储，优化供应链成本",
+      "serviceItem3":"温控仓储",
+      "serviceTxt3":"适用于食品、美妆、医疗等对存储环境有特殊要求的产品",
+      "serviceItem4":"大件 & 托盘存储",
+      "serviceTxt4":"专为家具、家电、机械设备等大件商品提供专业存储方案",
+      "serviceItem5":"全渠道平台存储‌",
+      "serviceTxt5":"深度对接亚马逊、独立站等销售渠道，实现库存数据实时同步",
+      "serviceItem6":"增值服务集成存储",
+      "serviceTxt6":"整合贴标换标、定制包装、退货翻新等增值服务，形成存储-处理-再销售闭环"
     },
-    "useway": {
-      "title": "打造一站式跨境物流解决办法",
-      "subTitle": "丝滑整合多套系统，满足不同物流业务场景",
-      "tabTxt1": "支持国际小包、国际快递、FBA头程，空派，海派跨境电商物流操作，对接USPS、FedEx、DHL、UPS等主流物流商，一套即开即用的国际物流系统。",
-      "tabTxt2": "打通店小秘、易仓、领星、马帮等众多热门ERP、货主直接推送订单和入库单到仓库，支持第三方api 对接、自动同步订单物流轨迹。",
-      "tabTxt3": "出口集运系统为跨进电商及海外客户提供代收包裹、仓储管理、退换货、国际快递等服务管理，为海外客户获取中国商品提供综合物流解决方案。 "
+    "solutions":{
+      "title":"英国 & 欧洲",
+      "animationTitle":"本地配送",
+      "subTitle":"覆盖广泛，快速送达",
+      "solutionsItem1":"本地快递服务",
+      "solutionsTxt1":"合作DPD、Royal Mail、UPS等，实现高效配送",
+      "solutionsItem2":"次日达 & 标准配送",
+      "solutionsTxt2":"供灵活配送方案，满足客户不同需求",
+      "solutionsItem3":"Pallet大件货物配送",
+      "solutionsTxt3":"支持托盘配送，适用于B2B批发或大件商品运输",
+      "solutionsItem4":"跨境转运",
+      "solutionsTxt4":"可将货物从英国海外仓直接转运至欧洲其他国家"
     },
-    "news":{
-      "title": "工作流程可视化，助力海外仓智能化第1步",
-      "subTitle": "仓储操作全流程扫描，降本增效低差错",
-      "title1": "库内物流动线说明",
-      "title2": "作业环节视频展示"
-    },
-    "solve":{
-      "title": "功能亮点",
-      "subTitle": "精心打磨系统细节，覆盖业务全流程全场景",
-      "solve1": "多平台对接",
-      "solveTxt1": "无缝对接店小秘、领星、易仓ERP及Fedex、DHL、USPS、UPS等渠道",
-      "solve2": "海外仓全场景",
-      "solveTxt2": "支持小包/快递/FBA多海外仓业态即开即用，无需购买服务器",
-      "solve3": "头程全程监控",
-      "solveTxt3": "实时掌握国内到海外仓空运、海运、快递等干线运输在途情况",
-      "solve4": "预充值自动扣费",
-      "solveTxt4": "支持客户线上充值，系统自动扣费短信实时提醒额度",
-      "solve5": "100%库存准确率",
-      "solveTxt5": "小程序扫码盘点，库存实时查看库存不足预警，及时补货",
-      "solve6": "轨迹可视化",
-      "solveTxt6": "从卖家到消费者全链路真实管控全程可视，实时追踪",
-      "solve7": "面单sku信息水印",
-      "solveTxt7": "面单上自定义商品、单号水印便于海外仓高效贴标",
-      "solve8": "大数据经营分析",
-      "solveTxt8": "BI报表展示多维度利润数据实现可量化的成本节省和服务提升"
-    },
-    "framework":{
-      "title": "产品框架图"
-    },
-    "way": {
-      "title": "为什么选择零零仓",
-      "subTitle": "免费升级，持续获得高效、安全的价值服务",
-      "way1": "综合性解决方案",
-      "wayTxt1": "提供集成的海外WMS和TMS系统，客户可以在同一个平台上管理仓库库存和物流运输，简化管理流程，提高工作效率。",
-      "way2": "云端部署",
-      "wayTxt2": "作为SAAS系统，产品基于云端部署，客户无需购买额外硬件设备或进行繁琐的安装配置，只需通过网页登录即可轻松使用，降低了使用成本和技术门槛。",
-      "way3": "可定制化功能",
-      "wayTxt3": "提供可定制化的功能和模块，根据客户的实际需求定制相应的解决方案，满足不同行业和客户的特定需求，增强了产品的灵活性和适用性。",
-      "way4": "智能化运营",
-      "wayTxt4": " 利用先进的技术，如人工智能、大数据分析等，实现智能化的运营管理，优化仓库库存管理和物流运输规划，提高运营效率和准确性。",
-      "way5": "安全稳定性高",
-      "wayTxt5": "采用先进的安全技术和数据加密技术，确保客户数据的安全性和隐私保护，系统稳定性高，可以持续稳定地运行，确保客户业务的顺利进行。",
-      "way6": "优质的客户服务",
-      "wayTxt6": "提供全天候的客户服务和技术支持，及时解决客户的问题和疑虑，提供个性化的解决方案和服务，增强客户的满意度和忠诚度。"
+    "product":{
+      "title":"运输",
+      "animationTitle":"方式",
+      "productTxt1":"陆 运",
+      "productTxt2":"空 运",
+      "productTxt3":"海 运"
     },
     "device":{
-      "title": "仓储设备集成",
+      "title":"支持",
+      "animationTitle":"商品",
       "device1":"化妆品",
-      "device2":"电子物品",
-      "device3":"家居产品",
+      "device2":"电子产品",
+      "device3":"家具用品",
       "device4":"服饰",
       "device5":"食品",
-      "device6":"液体"
+      "device6":"酒水"
     },
-    "quotation":{
-      "title": "海外仓WMS系统报价方案",
-      "subTitle":"",
-      "buttontxt":"预约演示",
-      "toptxt":"强烈推荐",
-      "price":"/6个月",
-      "originalprice":"原价",
-      "tips":"*当每月单量超出2万单，超出部分按0.2元/单收取",
-      "quotation1":{
-        "title":"代理仓版",
-        "subTitle":"满足货代需求",
-        "price":"16800",
-        "originalprice":"28999",
-        "buttontxt":"预约演示",
-        "txt1":"可开通仓库数量",
-        "right1":"2个",
-        "txt2":"可开通渠道数量",
-        "right2":"2家",
-        "txt3":"LOGO展示",
-        "right3":"支持",
-        "txt4":"数据账单",
-        "right4":"支持",
-        "txt5":"7*24h",
-        "right5":"支持",
-        "txt6":"仓库端小程序",
-        "right6":"支持"
-      },
-      "quotation2":{
-        "title":"标准版",
-        "subTitle":"满足中小海外仓库内操作需求",
-        "price":"22800",
-        "originalprice":"38999",
-        "buttontxt":"预约演示",
-        "txt1":"包含代理版所有功能",
-        "right1":"",
-        "txt2":"可开通仓库数量",
-        "right2":"2个",
-        "txt3":"可开通渠道数量",
-        "right3":"3家",
-        "txt4":"CS出入库操作端",
-        "right4":"支持",
-        "txt5":"收货上架功能",
-        "right5":"支持",
-        "txt6":"拣货发货功能",
-        "right6":"支持"
-      },
-      "quotation3":{
-        "title":"尊享版",
-        "subTitle":"满足大部分海外仓及货代需求",
-        "price":"26800",
-        "originalprice":"48999",
-        "buttontxt":"预约演示",
-        "txt1":"包含标准版所有功能",
-        "right1":"",
-        "txt2":"可开通仓库数量",
-        "right2":"4个",
-        "txt3":"可开通渠道数量",
-        "right3":"3家",
-        "txt4":"财务结算",
-        "right4":"支持",
-        "txt5":"利润分析",
-        "right5":"支持",
-        "txt6":"操作账号",
-        "right6":"不限",
-        "txt7":"比价功能",
-        "right7":"支持"
-      },
-      "quotation4":{
-        "title":"海外仓定制开发",
-        "subTitle":"专享私有部署",
-        "price":"详情报价",
-        "buttontxt":"报价咨询",
-        "custom":"按需定制",
-        "txt1":"可开通仓库数量",
-        "right1":"不限",
-        "txt2":"可开通渠道数量",
-        "right2":"不限",
-        "txt3":"私有部署",
-        "right3":"支持",
-        "txt4":"定制功能开发",
-        "right4":"支持",
-        "txt5":"网络隔离",
-        "right5":"支持",
-        "txt6":"数据大屏",
-        "right6":"支持",
-        "txt7":"专属客服",
-        "right7":"支持"
-      },
-      "quotation5":{
-        "abbreviation":"TMS",
-        "title": "跨境物流TMS打单系统",
-        "subTitle":"直连市面上主流快递渠道，自动比价，客户预充值自动扣款",
-        "price":"15800"
-      },
-      "quotation6":{
-        "abbreviation":"集运",
-        "title": "代购集运系统",
-        "subTitle":"海外客户快速注册下单，支持预充值付款",
-        "price":"19800"
-      },
-      "valueAdd1":{
-        "title":"自定义面单水印",
-        "price":"900",
-        "unit":"/个"
-      },
-      "valueAdd2":{
-        "title":"小程序BOSS端",
-        "price":"1800",
-        "unit":"/6个月"
-      },
-      "valueAdd3":{
-        "title":"面单批量上传识别",
-        "price":"1800",
-        "unit":"/6个月"
-      },
-      "valueAdd4":{
-        "title":"增加一个基础仓库",
-        "price":"2500",
-        "unit":"/6个月"
-      },
-      "valueAdd5":{
-        "title":"每5个操作账号",
-        "price":"2500",
-        "unit":"/6个月"
-      },
-      "valueAdd6":{
-        "title":"物流渠道/海外仓API对接",
-        "price":"4500",
-        "unit":"/家"
-      }
-    },
-    "online":{
-      "title": "三天快速上线",
-      "subTitle":"对接外置设备，助力更高效的操作"
+    "say":{
+      "title":"为什么选择",
+      "animationTitle":"CUBE",
+      "title1":"听听我们的客户这么说!",
+      "say1":"Shipboxs works great, very easy and cheap. the UPS label is a great deal and I would go with it all the time.",
+      "name1":"Lauren",
+      "address1":"Amazon Personal Seller",
+      "say2":"Shipboxs works great, very easy and cheap. the UPS label is a great deal and I would go with it all the time.",
+      "name2":"Lauren",
+      "address2":"Amazon Personal Seller"
     },
     "cooperate": {
-      "title": "合作平台",
-      "subTitle":"零零仓系统已对接市场常用平台50+"
+      "title":"多平台无缝对接",
+      "animationTitle":"一键管理全渠道订单",
+      "subTitle":"Cube支持多平台、多渠道订单管理，确保所有订单数据在一个系统内高效整合：集成Amazon、eBay、Shopify、Temu、TikTok等平台，实现库存和订单信息实时同步多店铺订单统一管理，避免跨平台订单混乱，提高处理效率API智能对接，可定制化连接企业ERP系统，实现业务流程自动化"
+    },
+    "information":{
+      "title":"仓库",
+      "animationTitle":"实景图",
+      "information1":"普货仓",
+      "informationTxt1":"存放服饰等普通货品",
+      "information2":"温控仓",
+      "informationTxt2":"存放对温度有要求的货品",
+      "information3":"xx仓",
+      "informationTxt3":"Explore this area3",
+      "information4":"xx仓",
+      "informationTxt4":"Explore this area4"
+    },
+    "doforyou":{
+      "title":"CUBE的优势",
+      "subTitle":"Cube英国海外仓依托先进的仓储管理系统（WMS），提供智能化库存管理、灵活存储解决方案，确保卖家能够高效控制库存状态，减少滞销与断货风险，提高供应链的运营效率",
+      "button":"About Us"
     }
   },
   "service": {
     "swiper": {
-      "title":"海外仓服务",
-      "subTitle":"一站式海外仓WMS",
+      "title":"智能仓储与精准分拣系统",
+      "subTitle":"跨境卖家的“零风险”履约",
       "animationTitle":"解决方案",
-      "description":"为企业提供一站式海外仓交付方案，效率提升、品质改善和数字化透明的海外仓解决方案。"
+      "description":"作为英国本土化海外仓，我们依托AI驱动的智能分拣系统，自动化优化拣货路径，支持多SKU订单高效处理，条码双重校验确保0错漏。订单处理效率提升30%，精准配货率达99.8%，助力跨境卖家实现24小时极速出库，保障大促期间履约稳定性，客户满意度持续领先行业标准"
     },
-    "function": {
-      "title": "功能权益明细",
-      "tabletitle1":"系统功能",
-      "tabletitle2":"海外仓代理版",
-      "tabletitle3":"海外仓标准版",
-      "tabletitle4":"海外仓尊享版",
-      "tableData1":{
-        "txt1":"仓库数量",
-        "txt2":"2个",
-        "txt3":"2个",
-        "txt4":"4个"
-      },
-      "tableData2":{
-        "txt1":"每个仓库账号数量",
-        "txt2":"1个",
-        "txt3":"5个",
-        "txt4":"不限"
-      },
-      "tableData3":{
-        "txt1":"企业内部账号数量",
-        "txt2":"3个",
-        "txt3":"10个",
-        "txt4":"不限"
-      },
-      "tableData4":{
-        "txt1":"自定义企业LOGO",
-        "txt2":"支持",
-        "txt3":"支持",
-        "txt4":"支持"
-      },
-      "tableData5":{
-        "txt1":"自定义客户LOGO",
-        "txt2":"1500/半年",
-        "txt3":"1500/半年",
-        "txt4":"支持"
-      },
-      "tableData6":{
-        "txt1":"免费授权ERP",
-        "txt2":"不限",
-        "txt3":"不限",
-        "txt4":"不限"
-      },
-      "tableData7":{
-        "txt1":"免费对接渠道API",
-        "txt2":"2家",
-        "txt3":"3家",
-        "txt4":"3家"
-      },
-      "tableData8":{
-        "txt1":"利润分析",
-        "txt2":"支持",
-        "txt3":"支持",
-        "txt4":"支持"
-      },
-      "tableData9":{
-        "txt1":"仓库小程序/CS端",
-        "txt2":"支持",
-        "txt3":"支持",
-        "txt4":"支持"
-      },
-      "tableData10":{
-        "txt1":"入库单管理",
-        "txt2":"支持",
-        "txt3":"支持",
-        "txt4":"支持"
-      },
-      "tableData11":{
-        "txt1":"收货上架",
-        "txt2":"不支持",
-        "txt3":"支持",
-        "txt4":"支持"
-      },
-      "tableData12":{
-        "txt1":"盘点移位",
-        "txt2":"不支持",
-        "txt3":"支持",
-        "txt4":"支持"
-      },
-      "tableData13":{
-        "txt1":"出库单管理",
-        "txt2":"支持",
-        "txt3":"支持",
-        "txt4":"支持"
-      },
-      "tableData14":{
-        "txt1":"拣货发货",
-        "txt2":"不支持",
-        "txt3":"支持",
-        "txt4":"支持"
-      },
-      "tableData15":{
-        "txt1":"财务结算",
-        "txt2":"支持",
-        "txt3":"支持",
-        "txt4":"支持"
-      },
-      "tableData16":{
-        "txt1":"7*24小时客服",
-        "txt2":"支持",
-        "txt3":"支持",
-        "txt4":"支持"
-      }
+    "ecommerce":{
+      "title":"英国本土多仓布局，高效覆盖",
+      "animationTitle":"全欧市场",
+      "description":"扎根英国核心物流节点（利物浦、曼彻斯特、伦敦），三仓联动辐射伯明翰、爱丁堡等30+城市，依托智能分仓系统实现欧洲48小时极速达。支持跨境卖家“一仓发全欧”，本地化清关、退换货及多语言客服，降低30%跨境物流成本，助力中国品牌无缝触达欧洲终端客户，打造高粘性本地化服务链",
+      "answer":"伦敦、曼彻斯特、伯明翰等核心城市100%次日达，依托智能分仓系统自动匹配利物浦/伦敦/曼城三大仓发货，承诺全英48小时必达，全程GPS追踪+超时必赔，偏远区时效再提速30%",
+      "button":"About US"
     },
-    "question":{
-      "title": "常见问题",
-      "subTitle1":"发票及开具流程",
-      "txt1":"我们可以为客户提供普通电子发票和增值税专用发票；",
-      "txt2":"普通电子发票开具流程：付款成功后，联系客服可线下邮寄；",
-      "txt3":"增值税专用发票开具流程：联系客服线下开取。",
-      "subTitle2":"支付方式",
-      "txt4":"目前支持微信支付、支付宝支付、对公转账三种支付方式。",
-      "subTitle3":"对公转账如何升级",
-      "txt5":"海外仓WMS系统请联系：18516101845",
-      "txt6":"或扫描下方二维码",
-      "subTitle4":"支持服务",
-      "txt7":"我们提供官网在线咨询、电话以及社群等售前售后支持服务",
-      "subTitle5":"退款政策",
-      "txt8":"支持30天无理由退款，系统开具日起30天内，可申请退款。"
+    "quantity":{
+      "titleLeft":"我们的成绩",
+      "titleRight1":"98%",
+      "titleRightTxt1":"订单履约率",
+      "titleRight2":"99%",
+      "titleRightTxt2":"客户满意度",
+      "titleRight3":"27%",
+      "titleRightTxt3":"价格节约",
+      "titleRight4":"5000+",
+      "titleRightTxt4":"日均处理订单量"
+    },
+    "introduct":{
+      "subTitle":"WHY CHOOSE US",
+      "title1":"订单自动同步",
+      "title11":"减少人工干预，提高履约效率",
+      "description1":"通过订单自动同步与库存实时联动，智能分仓匹配就近发货，减少人工干预，确保履约精准高效，杜绝超卖缺货，库存误差趋近于零",
+      "txt11":"实时订单更新，自动同步客户下单信息，确保精准履约",
+      "txt12":"库存自动扣减，防止超卖和缺货，提高订单准确率",
+      "txt13":"规则化订单分配，根据不同仓库库存情况，智能匹配最佳发货仓",
+      "title2":"智能拣选 & 精准配货",
+      "title21":"确保订单准确无误",
+      "description2":"AI智能分拣优化路径，多品类订单精准配货，条码双重校验规避错漏，订单处理效率提升30%，客户满意度达99.8%，实现零差错履约闭环",
+      "txt21":"AI驱动拣货优化，系统智能分配最优拣选路径，提高处理效率",
+      "txt22":"多SKU订单高效拣选，避免错发、漏发，确保客户满意度",
+      "txt23":"条码扫描验证，每个商品出库前进行二次核验，杜绝人工错误",
+      "title3":"品牌定制包装",
+      "title31":"提升客户体验，增强品牌影响力",
+      "description3":"品牌定制包装（LOGO/贴标/宣传页），智能组合多SKU节省运费，灵活适配黑五、圣诞等大促定制方案，提升品牌形象与客户满意度",
+      "txt31":"个性化外包装，提供品牌专属包装、LOGO贴标、定制宣传单页",
+      "txt32":"Kitting & 组合包装，支持多个SKU合并发货，优化配送成本",
+      "txt33":"促销活动包装，黑五、圣诞、Prime Day等活动期间提供特殊包装支持"
+    },
+    "solve":{
+      "title":"退换货 & FBA/FBM转运服务",
+      "solve1": "本地退货地址",
+      "solveTxt1": "帮助商家提供英国退货地址，减少退货时间和成本",
+      "solve2": "退货检测 & 质检",
+      "solveTxt2": "支持二次质检，将可售产品重新入库，减少损失",
+      "solve3": "换标 & 重新包装",
+      "solveTxt3": "重新贴标、换包装后再次入库，确保符合销售平台要求",
+      "solve4": "残次品处理",
+      "solveTxt4": "提供销毁或转售渠道，优化库存管理",
+      "solve5": "FBA仓储补货",
+      "solveTxt5": "快速补货至亚马逊FBA仓库，确保库存充足",
+      "solve6": "FBA退货换标",
+      "solveTxt6": "更换FBA标签，避免亚马逊违规，减少损失",
+      "solve7": "FBM（自发货）支持",
+      "solveTxt7": "灵活切换FBA/FBM模式，提高库存管理灵活性",
+      "solve8": "多平台订单处理",
+      "solveTxt8": "支持eBay、Shopify、TikTok等多渠道订单履行"
     }
   },
-  "api": {
-    "title": "ZeroCang开放API平台",
-    "txt": "让ERP、WMS、TMS可以无缝快速地接入",
-    "part": {
-      "title1": "ZeroCang-海外仓WMS",
-      "describe11":"1. 统一的开放入口：为合作伙伴提供统一的开放合作服务，实现实时数据对接、自动化仓储操作和物流跟踪。",
-      "describe12":"2. 高效的服务支持：提供一系列针对不同需求客户的快速指引、完善的文档和 API 手册，为接入的商家及海外仓物流商提供更好的服务。",
-      "describe13":"3、完善的数据接口：提供包括入库、出库、库存查询、面单获取等接口，大幅提升仓储管理效率和客户体验。",
-      "tip1":"查看API接口文档",
-      "title2": "ZeroCang-跨境物流TMS",
-      "describe21":"1. 丰富的接口资源：提供订单操作类，面单获取，费用查询，单据删除，事件推送等丰富接口。",
-      "describe22":"2. 便捷的测试工具：提供配套的测试工具，提供 7 x 24 小时的自助测试服务，让合作伙伴能随时进行自助测试，无需等待，降低接入的成本。",
-      "describe23":"3. 安全交易流程：提供一套完整的安全机制保证合作伙伴交易中的安全稳定。"
+  "information": {
+    "swiper": {
+      "title":"全链路智能仓配",
+      "subTitle":"为跨境卖家提供极速稳定的",
+      "animationTitle":"供应链支持"
+    },
+    "quantity": {
+      "subTitle":"WHY CHOOSE US",
+      "title":"CUBE",
+      "animationTitle":"跨境供应链",
+      "description":"深耕英国海外仓+国际集运/海运/空运全链路，HMRC合规资质，VAT智能申报，日均处理10万件跨境包裹，48小时覆盖欧盟主流平台，助力2000+电商&集运客户降本30%。",
+      "quantity1": "英国海外仓‌",
+      "quantityTxt1": "本土化仓储服务‌",
+      "quantity2": "国际集运物流‌",
+      "quantityTxt2": "资源整合中转‌",
+      "quantity3": "国际海运‌",
+      "quantityTxt3": "大宗运输主力",
+      "quantity4": "国际空运‌",
+      "quantityTxt4": "高效时效保障‌"
+    },
+    "cooperate": {
+      "title":"CUBE",
+      "animationTitle":"一站式",
+      "title1":"仓配服务",
+      "subTitle":"深度联动DHL、UPS等全球物流伙伴，整合海运/空运/集运全渠道，智能WMS直连Temu、Amazon及店小秘，日均处理10万+订单，欧洲核心区48小时必达，为跨境卖家提供极速稳定的供应链支持"
+    },
+    "process":{
+      "title":"工作流程",
+      "animationTitle":"可视化",
+      "subTitle":"仓储操作全流程扫描，降本增效低差错",
+      "process1":"扫描箱号收货",
+      "process2":"建议货位上架",
+      "process3":"多维度管理缓存",
+      "process4":"包裹打包贴标",
+      "process5":"按渠道扫描出库",
+      "process6":"灵活的拣货方式"
+    },
+    "advantages": {
+      "title":"业务",
+      "animationTitle":"介绍",
+      "subTitle":"Temu官方认证，15万SKU日处理能力，99.98%分拣准确率，欧盟本土退货48小时重上架，VAT合规申报零差错，赋能3000+跨境卖家库存周转提升40%",
+      "cellTitle1": "货运代理",
+      "cellText1": "为企业和组织提供多样化的物流服务。我们帮助客户整合和安排货物运输，并提供运输、仓储、海运或空运以及海关管理等支持",
+      "cellTitle2": "项目物流",
+      "cellText2": "具有自营的冷藏库，主要专注于运输医药类产品，以确保温度控制的精准性和运输的可靠安全性，满足对医药品冷链运输的高要求。",
+      "cellTitle3": "联运服务",
+      "cellText3": "具有自营的冷藏库，主要专注于运输医药类产品，以确保温度控制的精准性和运输的可靠安全性，满足对医药品冷链运输的高要求。",
+      "cellTitle4": "卡车物流",
+      "cellText4": "具有自营的冷藏库，主要专注于运输医药类产品，以确保温度控制的精准性和运输的可靠安全性，满足对医药品冷链运输的高要求。",
+      "cellTitle5": "仓储及配送服务",
+      "cellText5": "具有自营的冷藏库，主要专注于运输医药类产品，以确保温度控制的精准性和运输的可靠安全性，满足对医药品冷链运输的高要求。"
+    },
+    "device":{
+      "title":"智能硬核仓配",
+      "animationTitle":"中枢",
+      "subTitle":"英国仓配备扫码枪、快手秤及PDA扫描仪等，实现入库-分拣-出库全程数字化追踪。智能设备集群使单日5000千件订单处理准确率达99.98%，重量核验效率提升200%，杜绝人工失误。",
+      "device1":"扫码枪",
+      "device2":"快手秤",
+      "device3":"红外扫描仪",
+      "device4":"PDA扫描仪",
+      "device5":"贴标机",
+      "device6":"称重分拣机",
+      "device7":"贴标机",
+      "device8":"称重分拣机"
     }
   },
   "about": {
-    "title1": "“零距离链接",
-    "title2": "让跨境物流智能无限”",
-    "about": {
-      "title": "关于我们",
-      "about1":"零零仓(上海)物流科技有限公司是一家专业的海外仓WMS、跨境物流TMS软件服务商，支持海外仓一件代发、FBA转运、大件物流等多种业态，是领先的精益物流体系解决方案供应商。现已经为美国、加拿大、欧洲、东南亚、中东等多个国家地区的近50多个海外仓实现数字化转型升级。",
-      "about2":"零零仓团队由90、00后组成，是一个非常有朝气活力的团队，核心人员从事物流软件行业均在8年以上，团队专注于海外仓行业信息化领域，助力跨境物流企业实现全程自动化智能化。",
-      "about3":"“因小而存，因小而久，因小而优”，我们会坚持做好跨境物流信息化这件“小”事。"
+    "swiper":{
+      "title": "关于 CUBE",
+      "subTitle": "深耕英国十年，为500+跨境卖家提供仓储代发、FBA中转及定制化供应链服务。自有WMS系统实现库存精度99.9%，自动化分拣日均处理10万SKU，英德法三国退换中心使退货处理时效缩短70%。中英双语团队7×24小时响应，数据对接Shopify/Amazon全平台，让您的欧洲订单履约成本直降35%"
     },
-    "contact": {
-      "title": "联系我们",
-      "mainTitle1": "电话：",
-      "title1": "高女士",
-      "mainTitle2": "邮箱：",
-      "mainTitle3": "地址：",
-      "title2": "上海市青浦区华徐公路962弄69号复能大厦1106室"
+    "quantity":{
+      "title":"专业",
+      "animationTitle":"服务",
+      "title1":"10 年",
+      "subTitle1":"专注于海外仓",
+      "description1":"专注跨境物流十年，整合海空运干线、智能报关及海外仓配，服务覆盖全欧洲，端到端供应链解决方案助力企业降本增效，跨境履约周期缩短30%",
+      "title2":"500+",
+      "subTitle2":"员工",
+      "description2":"超百人专业团队，仓库/运营/客服等多线协同，累计服务1000+1客户，ISO认证保障服务合规交付",
+      "title3":"24 小时",
+      "subTitle3":"客服服务",
+      "description3":"7×24小时全时客服，中英双语电话/在线/邮件30秒极速响应，ISO认证保障98%服务满意度‌"
     },
-    "picture":{
-      "title":"我们提供专业的海外仓管理系统，以便您应对变化的世界。"
+    "introduce":{
+      "title":"关于 CUBE",
+      "description":"公司总部位于英国，业务范围涵盖：货运代理，项目物流，联运服务，卡车物流，仓储及配送送服务。始终坚持以“通过多元化的网络和资源，致力为客户提供一体化的优质物流解决方案”为企业宗旨，以“专业、诚信、合规化”为立业之本。并形成一套以了解、体验、建议、合作、售后及回访为一体的完整服务体系。"
+    },
+    "timeline":{
+      "title":"企业",
+      "animationTitle":"发展",
+      "time1":"2018",
+      "description1":"创立于曼彻斯特，专注中英跨境卖家仓储代发服务",
+      "time2":"2020",
+      "description2":"启用8千平米智能仓，库存管理精度突破99.5%",
+      "time5":"2021",
+      "description5":"中英双语客服体系上线，响应速度进入30秒时代",
+      "time3":"2022",
+      "description3":"上线欧盟逆向物流网络，英德法退换时效缩短至48小时",
+      "time4":"2023",
+      "description4":"获ISO9001认证，Shopify/Amazon全平台API直连",
+      "time6":"2025",
+      "description6":"成为Temu官方认证仓，自动化分拣产能提升至15万SKU/日"
+    },
+    "consult":{
+      "title1":"全球视野·本土深耕",
+      "description1":"以曼彻斯特为原点构建跨文化供应链枢纽，ISO9001质量管理体系叠加欧盟VAT合规专家团队，让中国制造入欧零偏差",
+      "title2":"极速基因·数字动脉",
+      "description2":"从智能WMS系统迭代到15万SKU/日分拣效能，全员KPI与订单履行速度强关联，客户旺季增速200%即是我们的人效勋章",
+      "title3":"问题洁癖·体验执念",
+      "description3":"设立伦敦-深圳双总部质检委员会，48小时退货每单必溯源码因，客户服务部可直接调用CEO紧急响应通道",
+      "detail11":"全球视野&",
+      "detail12":"本土深耕",
+      "detailTxt1":"以曼彻斯特为原点构建跨文化供应链枢纽，ISO9001质量管理体系叠加欧盟VAT合规专家团队，让中国制造入欧零偏差",
+      "detail21":"极速基因&",
+      "detail22":"数字动脉",
+      "detailTxt2":"从智能WMS系统迭代到15万SKU/日分拣效能，全员KPI与订单履行速度强关联，客户旺季增速200%即是我们的人效勋章",
+      "detail31":"问题洁癖&",
+      "detail32":"体验执念",
+      "detailTxt3":"设立伦敦-深圳双总部质检委员会，48小时退货每单必溯源码因，客户服务部可直接调用CEO紧急响应通道"
     }
   },
   "consult": {
-    "title":"企业资讯",
-    "more":"查看更多",
-    "detail":"详情",
-    "year":"年"
+    "title":"Corporate news",
+    "more":"See more",
+    "detail":"Detail",
+    "year":""
   }
 }

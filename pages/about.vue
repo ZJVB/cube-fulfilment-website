@@ -1,5 +1,5 @@
 <template>
-  <section class="section-part section-swiper">
+  <section class="section-part section-swiper" ref="swiperRef">
     <swiper ref="topSwiper">
       <swiper-slide>
         <div class="swiper-content">
@@ -18,7 +18,7 @@
       </swiper-slide>
     </swiper>
   </section>
-  <section class="section-part pt-100 section-quantity">
+  <section class="section-part pt-100 section-quantity" ref="quantityRef">
     <div class="container-box">
       <div class="section-title">
         <div class="title-name">{{ $t('about.quantity.title') }}</div>
@@ -44,7 +44,7 @@
       </div>
     </div>
   </section>
-  <section class="section-part pt-100 section-introduce">
+  <section class="section-part pt-100 section-introduce" ref="introduceRef">
     <div class="introduce-box">
       <div class="introduce-content">
         <div class="content-right">
@@ -70,7 +70,7 @@
       </div>
     </div>
   </section>
-  <section class="section-part pt-100 section-timeline">
+  <section class="section-part pt-100 section-timeline" ref="timelineRef">
     <div class="container-box">
       <div class="section-title">
         <div class="title-name">{{ $t('about.timeline.title') }}</div>
@@ -93,7 +93,7 @@
     </div>
   </section>
   <BaseSectionExperience />
-  <section class="section-part pt-70 section-consult">
+  <section class="section-part pt-70 section-consult" ref="consultRef">
       <div class="container-box">
           <div class="section-content mt-40">
               <el-row :gutter="30">
@@ -107,7 +107,6 @@
                               <div class="description">
                                 {{ $t(`about.consult.description${index+1}`) }}
                               </div>
-                              <div class="more"><span>{{ $t('about.consult.more') }}</span><img src="~/assets/images/about/more.png" /></div>
                           </div>
                       </div>
                       <div class="detail-card">
@@ -120,7 +119,6 @@
                         <div class="description">
                           {{ $t(`about.consult.detailTxt${index+1}`) }}
                         </div>
-                        <div class="more">{{ $t('about.consult.more') }}</div>
                       </div>
                   </el-col>
               </el-row>
@@ -129,6 +127,11 @@
   </section>
 </template>
 <script setup lang="ts">
+let swiperRef = ref();
+let introduceRef = ref();
+let consultRef = ref();
+let quantityRef = ref();
+let timelineRef = ref();
   // 获取当前语言
     // 数量
   const quantityLength = [1, 2, 3];
@@ -154,6 +157,31 @@
     return new URL(`../assets/images/about/consult-${item}.png`, import.meta.url).href
   });
   
+  const route = useRoute(); // 获取当前路由对象
+
+watch(() => route.query, (newValue, oldValue) => {
+    if (newValue.path == 'quantity') {
+      setTimeout(()=>{
+        quantityRef.value.scrollIntoView({ behavior: 'smooth' })
+      },0)
+    }else if(newValue.path == 'swiper'){
+      setTimeout(()=>{
+        swiperRef.value.scrollIntoView({ behavior: 'smooth' })
+      },0)
+    }else if(newValue.path == 'introduce'){
+      setTimeout(()=>{
+        introduceRef.value.scrollIntoView({ behavior: 'smooth' })
+      },0)
+    }else if(newValue.path == 'consult'){
+      setTimeout(()=>{
+        consultRef.value.scrollIntoView({ behavior: 'smooth' })
+      },0)
+    }else if(newValue.path == 'timeline'){
+      setTimeout(()=>{
+        timelineRef.value.scrollIntoView({ behavior: 'smooth' })
+      },0)
+    }
+}, { immediate: true });
 </script>
 
 <style lang="scss" scoped>
@@ -179,7 +207,7 @@
   .quantity-card {
     position: relative;
     padding: 24px 34px;
-    // height: 280px;
+    height: 100%;
     box-sizing: border-box;
     background-color: #fff;
     background-size: contain;
@@ -389,6 +417,7 @@
     top: 0;
     width: calc(100% - 20px);
     opacity: 0;
+    height: 100%;
     .title{
       color: #000;
       font-size: 53px;

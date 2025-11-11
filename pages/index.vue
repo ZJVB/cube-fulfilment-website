@@ -29,7 +29,6 @@
               <div class="card-content">
                 <el-image class="card-img" :src="item" />
                 <div class="title color-yellow">
-                  <span>{{index==0||index==1?"+":''}}</span>
                   <span>{{index==0?num1:index==1?num2:index==2?num3:num4}}</span>
                   <span>{{ $t(`index.quantity.quantity${index + 1}`) }}</span>
                 </div>
@@ -93,7 +92,6 @@
           <div class="section-title">
             <span class="title-name">{{ $t('index.service.title') }}</span>
             <div class="title-name animation-item animation-item-two"><span style="z-index: 0;position:relative">{{ $t('index.service.animationTitle') }}</span></div>
-            <span class="title-name">{{ $t('index.service.title1') }}</span>
           </div>
           <div class="content-right-sub mt-20">
             {{ $t('index.service.subTitle') }}  
@@ -118,7 +116,9 @@
       <div class="section-title">
           <div class="title-name">{{ $t('index.solutions.title') }}</div>
           <div class="animation-item animation-item-two"><span style="z-index: 0;position:relative">{{ $t('index.solutions.animationTitle') }}</span></div>
-          <div class="title-name ml-10">{{ $t('index.solutions.title1') }}</div>
+      </div>
+      <div class="section-sub mt-20">
+        <div class="sub-text">{{ $t('index.solutions.subTitle') }}  </div>
       </div>
       <div class="section-content mt-40">
         <el-row :gutter="48">
@@ -183,7 +183,7 @@
     <div class="container-box">
       <div class="section-title">
           <div class="title-name">{{ $t('index.say.title') }}</div>
-          <div class="animation-item animation-item-two"><span style="z-index: 0;position:relative">{{ $t('index.say.animationTitle') }}</span></div>
+          <div class="animation-item animation-item-two"><span style="z-index: 0;position:relative">{{ $t('index.say.animationTitle') }}</span></div><br/>
           <div class="title-name">
             {{ $t('index.say.title1') }}
           </div>
@@ -223,9 +223,6 @@
       <div class="section-title">
         <div class="title-name">{{ $t('index.cooperate.title') }}</div>
         <div class="animation-item animation-item-two"><span style="z-index: 0;position:relative">{{ $t('index.cooperate.animationTitle') }}</span></div>
-        <div class="title-name ml-10">
-          {{ $t('index.cooperate.title1') }}
-        </div>
       </div>
       <div class="section-sub mt-20">
         <div class="sub-text">{{ $t('index.cooperate.subTitle') }}</div>
@@ -256,7 +253,7 @@
           <div class="swiper-items">
             <img :src="getImageUrl(index)" alt="" />
             <div class="line-title">{{ $t(`index.information.information${index+1}`) }}</div>
-            <div class="line-text">{{ $t(`index.information.informationTxt${index+1}`) }}<img src="~/assets/images/index/line-btn-go.png" /></div>
+            <div class="line-text">{{ $t(`index.information.informationTxt${index+1}`) }}</div>
           </div>
         </swiper-slide>
       </swiper>
@@ -354,10 +351,10 @@ const getImageUrl = ((index:any)=>{
         bannerHeight.value = 802 / 2400 * screenWidth.value
       })()
     }
-    increaseNum1(7.5)
-    increaseNum2(1000)
-    increaseNum3(27)
-    increaseNum4(42)
+    increaseNum1(3)
+    increaseNum2(10000)
+    increaseNum3(5000)
+    increaseNum4(50)
   })
   
   const increaseNum1 = ((num:any)=>{
@@ -371,8 +368,8 @@ const getImageUrl = ((index:any)=>{
   })
   const increaseNum2 = ((num:any)=>{
     let timer = setInterval(() => {
-      num2.value=num2.value+50;
-      if(num2.value > num-50){
+      num2.value=num2.value+500;
+      if(num2.value > num-500){
         num2.value = num
         clearInterval(timer)
       }
@@ -380,8 +377,8 @@ const getImageUrl = ((index:any)=>{
   })
   const increaseNum3 = ((num:any)=>{
     let timer = setInterval(() => {
-      num3.value++;
-      if(num3.value > num-1){
+      num3.value=num3.value+100;
+      if(num3.value > num-100){
         num3.value = num
         clearInterval(timer)
       }
@@ -389,8 +386,8 @@ const getImageUrl = ((index:any)=>{
   })
   const increaseNum4 = ((num:any)=>{
     let timer = setInterval(() => {
-      num4.value = num4.value+2;
-      if(num4.value > num-2){
+      num4.value = num4.value+5;
+      if(num4.value > num-5){
         num4.value = num
         clearInterval(timer)
       }
@@ -652,6 +649,7 @@ const getImageUrl = ((index:any)=>{
       border-radius: 4px;
       box-shadow: 0px 8px 22.9px 0px rgba(0, 0, 0, 0.11);
       padding: 12px 12px 50px 12px;
+      height: 100%;
       .flex-row{
         display: flex;
         gap: 8px;

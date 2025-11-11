@@ -20,33 +20,27 @@
       </swiper-slide>
     </swiper>
   </section>
-  <section class="section-part pt-100 section-cooperate">
+  <section class="section-part pt-100 section-ecommerce">
     <div class="container-box">
       <div class="section-title">
         <div class="title-name">{{ $t('service.ecommerce.title') }}</div>
         <div class="animation-item animation-item-two"><span style="z-index: 0;position:relative">{{ $t('service.ecommerce.animationTitle') }}</span></div>
-        <div class="title-name ml-10">
-          {{ $t('service.ecommerce.title1') }}
-        </div>
       </div>
       <div class="section-sub mt-20">
         <div class="sub-text">{{ $t('service.ecommerce.description') }}</div>
       </div>
-      <div class="cooperate-swiper mt-40">
+      <div class="ecommerce-swiper mt-40">
         <el-row :gutter="30">
           <el-col :span="10">
-            <div class="cooperate-swiper-quation">
-              <div class="quation">
-                {{ $t('service.ecommerce.quation') }}
-              </div>
+            <div class="ecommerce-swiper-quation">
               <div class="answer">
                 {{ $t('service.ecommerce.answer') }}
               </div>
             </div>
-            <el-button class="cooperate-swiper-button" type="primary">{{$t('service.ecommerce.button')}}</el-button>
+            <el-button class="ecommerce-swiper-button" type="primary">{{$t('service.ecommerce.button')}}</el-button>
           </el-col>
           <el-col :span="14" >
-            <div class="cooperate-swiper-img">
+            <div class="ecommerce-swiper-img">
               <img src="~/assets/images/service/map.png" />
             </div>
           </el-col>
@@ -106,10 +100,6 @@
               <img src="~/assets/images/service/introduce-icon-1.png" />
               <span>{{$t('service.introduct.txt13')}}</span>
             </div>
-            <div class="content-right-item">
-              <img src="~/assets/images/service/introduce-icon-1.png" />
-              <span>{{$t('service.introduct.txt14')}}</span>
-            </div>
         </div>
       </div>
     </div>
@@ -141,10 +131,6 @@
             <div class="content-right-item">
               <img src="~/assets/images/service/introduce-icon-1.png" />
               <span>{{$t('service.introduct.txt23')}}</span>
-            </div>
-            <div class="content-right-item">
-              <img src="~/assets/images/service/introduce-icon-1.png" />
-              <span>{{$t('service.introduct.txt24')}}</span>
             </div>
         </div>
         <div class="content-left">
@@ -184,10 +170,6 @@
               <img src="~/assets/images/service/introduce-icon-1.png" />
               <span>{{$t('service.introduct.txt33')}}</span>
             </div>
-            <div class="content-right-item">
-              <img src="~/assets/images/service/introduce-icon-1.png" />
-              <span>{{$t('service.introduct.txt34')}}</span>
-            </div>
         </div>
       </div>
     </div>
@@ -195,8 +177,7 @@
   <section class="section-part pt-100 section-solve">
     <div class="container-box">
       <div class="section-title">
-          <div class="title-name">{{ $t('index.solve.title') }}</div>
-          <div class="animation-item animation-item-two"><span style="z-index: 0;position:relative">{{ $t('index.solve.animationTitle') }}</span></div>
+        <div class="title-name">{{ $t('service.solve.title') }}</div>
       </div>
       <div class="section-content mt-40">
         <el-row :gutter="32">
@@ -206,9 +187,8 @@
                 <el-image class="card-img" :src="item" />
               </div>
               <div class="card-content">
-                <div class="title">{{ $t(`index.solve.solve${index + 1}`) }}</div>
-                <div class="text">{{ $t(`index.solve.solveTxt${index + 1}`) }}</div>
-                <div class="describe">{{ $t(`index.solve.solveDescribe${index + 1}`) }}</div>
+                <div class="title">{{ $t(`service.solve.solve${index + 1}`) }}</div>
+                <div class="text">{{ $t(`service.solve.solveTxt${index + 1}`) }}</div>
               </div>
             </div>
           </el-col>
@@ -257,15 +237,15 @@
     }
   }
 }
-.section-cooperate {
+.section-ecommerce {
   padding-bottom: 60px;
   background-color: #fff;
   .section-title,.section-sub{
     z-index: 1;
     position: relative;
   }
-  .cooperate-swiper{
-    .cooperate-swiper-quation{
+  .ecommerce-swiper{
+    .ecommerce-swiper-quation{
       width: 464px;
       padding: 40px 20px;
       border-radius: 12px;
@@ -279,17 +259,17 @@
       }
       .answer{
         color: rgba(0, 0, 0, 0.70);
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 400;
       }
     }
-    .cooperate-swiper-button{
+    .ecommerce-swiper-button{
       width: 460px;
       padding: 20px 180px;
       border-radius: 100px;
       margin-top: 60px;
     }
-    .cooperate-swiper-img{
+    .ecommerce-swiper-img{
       position: relative;
       min-height: 600px;
       img{
@@ -369,7 +349,7 @@
                 margin-top: 16px;
                 div{
                   color: #000;
-                  font-size: 40px;
+                  font-size: 34px;
                   font-weight: 700;
                 }
               }

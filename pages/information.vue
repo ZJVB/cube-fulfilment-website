@@ -31,8 +31,6 @@
           <div class="section-title">
             <div class="title-name">{{ $t('information.quantity.title') }}</div>
             <div class="animation-item animation-item-two"><span style="z-index: 0;position:relative">{{ $t('information.quantity.animationTitle') }}</span></div>
-            <div class="title-name ml-10">{{ $t('information.quantity.title1') }}</div>
-            <div class="title-name splice-title">{{ $t('information.quantity.title2') }}</div>
           </div>
         </el-col>
         <el-col :span="14">
@@ -48,8 +46,6 @@
               <div class="card-content">
                 <el-image class="card-img" :src="item" />
                 <div class="title">
-                  <span>{{index==0||index==1?"+":''}}</span>
-                  <span>{{index==0?num1:index==1?num2:index==2?num3:num4}}</span>
                   <span>{{ $t(`information.quantity.quantity${index + 1}`) }}</span>
                 </div>
                 <div class="text">{{ $t(`information.quantity.quantityTxt${index + 1}`) }}</div>
@@ -65,7 +61,7 @@
       <div class="section-title">
         <div class="title-name">{{ $t('information.cooperate.title') }}</div>
         <div class="animation-item animation-item-two"><span style="z-index: 0;position:relative">{{ $t('information.cooperate.animationTitle') }}</span></div>
-        <div class="title-name ml-10">
+        <div class="title-name">
           {{ $t('information.cooperate.title1') }}
         </div>
       </div>
@@ -82,9 +78,6 @@
       <div class="section-title">
         <div class="title-name">{{ $t('information.process.title') }}</div>
         <div class="animation-item animation-item-two"><span style="z-index: 0;position:relative">{{ $t('information.process.animationTitle') }}</span></div>
-        <div class="title-name ml-10">
-          {{ $t('information.process.title1') }}
-        </div>
       </div>
       <div class="section-sub mt-20">
         <div class="sub-text">{{ $t('information.process.subTitle') }}</div>
@@ -104,14 +97,11 @@
   <section class="section-part pt-100 section-advantages">
     <div class="container-box">
       <div class="section-title">
-        <div class="title-name">{{ $t('information.process.title') }}</div>
-        <div class="animation-item animation-item-two"><span style="z-index: 0;position:relative">{{ $t('information.process.animationTitle') }}</span></div>
-        <div class="title-name ml-10">
-          {{ $t('information.process.title1') }}
-        </div>
+        <div class="title-name">{{ $t('information.advantages.title') }}</div>
+        <div class="animation-item animation-item-two"><span style="z-index: 0;position:relative">{{ $t('information.advantages.animationTitle') }}</span></div>
       </div>
       <div class="section-sub mt-20">
-        <div class="sub-text">{{ $t('information.process.subTitle') }}</div>
+        <div class="sub-text">{{ $t('information.advantages.subTitle') }}</div>
       </div>
       <div class="advantages-main mt-40">
         <div class="advantages-row">
@@ -137,9 +127,6 @@
       <div class="section-title">
         <div class="title-name">{{ $t('information.device.title') }}</div>
         <div class="animation-item animation-item-two"><span style="z-index: 0;position:relative">{{ $t('information.device.animationTitle') }}</span></div>
-        <div class="title-name ml-10">
-          {{ $t('information.device.title1') }}
-        </div>
       </div>
       <div class="section-sub mt-20">
         <div class="sub-text">{{ $t('information.device.subTitle') }}</div>
@@ -196,52 +183,6 @@
     return new URL(`../assets/images/information/device-icon-${item}.png`, import.meta.url).href
   });
 
-  let num1:any = ref(0)
-  let num2:any = ref(0)
-  let num3:any = ref(0)
-  let num4:any = ref(0)
-  onMounted(() => {
-    increaseNum1(7.5)
-    increaseNum2(1000)
-    increaseNum3(27)
-    increaseNum4(42)
-  })
-   const increaseNum1 = ((num:any)=>{
-    let timer = setInterval(() => {
-      num1.value = num1.value+0.5;
-      if(num1.value > num-0.5){
-        num1.value = num
-        clearInterval(timer)
-      }
-    }, 120);
-  })
-  const increaseNum2 = ((num:any)=>{
-    let timer = setInterval(() => {
-      num2.value=num2.value+50;
-      if(num2.value > num-50){
-        num2.value = num
-        clearInterval(timer)
-      }
-    }, 100);
-  })
-  const increaseNum3 = ((num:any)=>{
-    let timer = setInterval(() => {
-      num3.value++;
-      if(num3.value > num-1){
-        num3.value = num
-        clearInterval(timer)
-      }
-    }, 100);
-  })
-  const increaseNum4 = ((num:any)=>{
-    let timer = setInterval(() => {
-      num4.value = num4.value+2;
-      if(num4.value > num-2){
-        num4.value = num
-        clearInterval(timer)
-      }
-    }, 100);
-  })
 </script>
 
 <style lang="scss" scoped>
@@ -269,7 +210,7 @@
     color: #000;
     font-size: 18px;
     font-weight: 400;
-    margin-top: 40px;
+    margin-top: 14px;
     margin-bottom: 70px;
   }
   .section-title{

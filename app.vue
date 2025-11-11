@@ -31,7 +31,7 @@
 
 <style lang="scss" scoped>
 .page-container {
-  padding: 0;
+  padding: 80px 0px 0px 0px;
   margin: 0;
 }
 </style>
