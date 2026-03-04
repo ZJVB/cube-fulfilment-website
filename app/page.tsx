@@ -14,7 +14,6 @@ import { ExperienceSection } from "@/components/sections/experience-section"
 import { SiteFooter } from "@/components/site-footer"
 
 export default function HomePage() {
-  console.log("[v0] HomePage rendering - Next.js is working")
   return (
     <>
       <SiteHeader />
