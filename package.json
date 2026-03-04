@@ -19,7 +19,10 @@
   },
   "dependencies": {
     "@element-plus/icons": "^0.0.11",
+    "@element-plus/icons-vue": "^2.3.2",
     "@neysf/qiyu-web-sdk": "^1.1.1",
+    "@nuxt/content": "^3.12.0",
+    "element-plus": "^2.13.3",
     "nuxt-swiper": "^1.2.2",
     "quill": "^2.0.3",
     "sass": "^1.69.5",
