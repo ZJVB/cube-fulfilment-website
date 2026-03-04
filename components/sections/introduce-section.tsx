@@ -1,5 +1,4 @@
 import Image from "next/image"
-import { Button } from "@/components/ui/button"
 
 const blocks = [
   {
@@ -111,10 +110,12 @@ function TextBlock({
         </p>
       ))}
       <div className="mt-auto flex gap-4 pt-6">
-        <Button className="w-36 rounded-md">Request a Demo</Button>
-        <Button variant="outline" className="w-36 rounded-md border-primary text-primary hover:bg-primary/5">
+        <button className="h-10 w-36 rounded-md bg-primary text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90">
+          Request a Demo
+        </button>
+        <button className="h-10 w-36 rounded-md border border-primary bg-transparent text-sm font-medium text-primary transition-colors hover:bg-primary/5">
           More info
-        </Button>
+        </button>
       </div>
     </div>
   )

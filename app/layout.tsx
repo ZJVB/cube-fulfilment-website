@@ -8,6 +8,8 @@ export const metadata: Metadata = {
   title: "CUBE - Cross-Border E-Commerce Warehouse & Logistics",
   description:
     "CUBE UK overseas warehouse provides efficient, flexible, and customized warehousing and logistics services for cross-border e-commerce enterprises.",
+  keywords:
+    "CUBE,Cube Fulfilment,cross-border logistics,overseas warehouse,WMS,TMS,UK warehouse",
 }
 
 export default function RootLayout({
