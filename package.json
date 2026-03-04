@@ -14,6 +14,7 @@
     "@nuxt/devtools": "latest",
     "@nuxtjs/i18n": "^8.0.0-rc.11",
     "nuxt": "^3.8.2",
+    "sass": "^1.97.3",
     "vue": "^3.3.12",
     "vue-router": "^4.2.5"
   },
@@ -25,7 +26,6 @@
     "element-plus": "^2.13.3",
     "nuxt-swiper": "^1.2.2",
     "quill": "^2.0.3",
-    "sass": "^1.69.5",
     "sass-loader": "^13.3.2"
   }
 }
