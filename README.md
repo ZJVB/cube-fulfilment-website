@@ -1,7 +1,7 @@
 # minya-web
 
 #### 介绍
-敏亚官网
+Cube Fulfilment官网
 
 #### 软件架构
 软件架构说明
